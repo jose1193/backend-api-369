@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $permissions = [
-            Permission::create(['name' => 'manage manager', 'guard_name' => 'sanctum']),
+            Permission::create(['name' => 'manage manager ', 'guard_name' => 'sanctum']),
             Permission::create(['name' => 'manage customer', 'guard_name' => 'sanctum']),
             Permission::create(['name' => 'manage others', 'guard_name' => 'sanctum']),
         ];
